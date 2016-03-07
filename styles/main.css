@@ -24,27 +24,58 @@
 .icon-box--icon1 {
   height: 70px;
   width: 87.6px;
-  /*../images/icons/button_1.png*/
+  background-image: url('../images/icons/button_1.png');
+  background-size: contain;
   float: left;
 }
 .icon-box--icon2 {
   height: 70px;
-  width: 87.6px;
+  width: 87px;
+  background-image: url('../images/icons/button_2.png');
+  background-size: contain;
   border-left: 3px solid lightblue;
   border-right: 3px solid lightblue;
   float: left;
 }
 .icon-box--icon3 {
-  height: 70px;
-  width: 87.6px;
+  height: 50px;
+  width: 87px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana;
+  color: #81BCE6;
   border-right: 3px solid lightblue;
   float: left;
 }
 .icon-box--icon4 {
   height: 70px;
-  width: 87.6px;
+  width: 87px;
   border-right: 3px solid lightblue;
   float: left;
+}
+.icon-box--color-box {
+  height: 30px;
+  width: 30px;
+  margin: 20px 15px 15px 30px;
+  background-color: #81bce6;
+}
+.icon-box--icon5 {
+  height: 70px;
+  width: 87px;
+  background-image: url('../images/icons/button_3.png');
+  background-size: contain;
+  float: left;
+}
+.shirt-name {
+  width: 120px;
+  float: left;
+}
+.price {
+  width: 320px;
+  float: left;
+  text-align: right;
 }
 
 /* State*/
