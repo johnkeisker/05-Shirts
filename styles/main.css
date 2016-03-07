@@ -1,0 +1,50 @@
+/* Base*/
+
+
+
+/* Layout*/
+
+/* Modules*/
+.outer-box {
+
+}
+.outer-box--tshirt-box {
+  width: 450px;
+  border: 3px solid lightblue;
+
+}
+.outer-box--image {
+  padding: 40px;
+}
+.outer-box--icon-box {
+  width: 450px;
+  height: 70px;
+  border-top: 3px solid lightblue;
+}
+.icon-box--icon1 {
+  height: 70px;
+  width: 87.6px;
+  /*../images/icons/button_1.png*/
+  float: left;
+}
+.icon-box--icon2 {
+  height: 70px;
+  width: 87.6px;
+  border-left: 3px solid lightblue;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--icon3 {
+  height: 70px;
+  width: 87.6px;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--icon4 {
+  height: 70px;
+  width: 87.6px;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+
+/* State*/
