@@ -106,15 +106,11 @@
   font-weight: bold;
 }
 .outer-box2 {
-  float: left;
-
-  margin: 0 0 0 20px;
+  
 }
 .outer-box--tshirt-box{
   width: 450px;
   border: 3px solid lightblue;
-  /*position: relative;
-  left: 50%;*/
 }
 .outer-box--image {
   padding: 40px;
@@ -190,12 +186,10 @@
 }
 
 .outer-box3 {
-  float: left;
-  margin-left: 20px;
+
 }
 .outer-box--tshirt-box{
   width: 450px;
-  /*float: left;*/
   border: 3px solid lightblue;
 
 }
