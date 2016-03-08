@@ -9,9 +9,11 @@
 
 }
 .outer-box--tshirt-box{
+  /*float: right;
+  position: relative;
+  left: 50%;*/
   width: 450px;
   border: 3px solid lightblue;
-
 }
 .outer-box--image {
   padding: 40px;
@@ -49,7 +51,7 @@
   border-right: 3px solid lightblue;
   float: left;
 }
-.icon-box--icon:hover .icon-box--hidden-box {
+/*.icon-box--icon3:hover .icon-box--hidden-box {
   visibility: visible;
   opacity: 1;
   transform: translateY(10px);
@@ -66,7 +68,7 @@
   bottom: 100%;
   visibility: hidden;
   opacity: 0;
-}
+}*/
 .icon-box--icon4 {
   height: 70px;
   width: 87px;
@@ -104,14 +106,17 @@
   font-weight: bold;
 }
 .outer-box2 {
+  float: left;
 
+  margin: 0 0 0 20px;
 }
-.outer-box--tshirt-box1{
+.outer-box--tshirt-box{
   width: 450px;
   border: 3px solid lightblue;
-
+  /*position: relative;
+  left: 50%;*/
 }
-.outer-box--image1 {
+.outer-box--image {
   padding: 40px;
 }
 .outer-box--icon-box1 {
@@ -185,10 +190,12 @@
 }
 
 .outer-box3 {
-
+  float: left;
+  margin-left: 20px;
 }
 .outer-box--tshirt-box{
   width: 450px;
+  /*float: left;*/
   border: 3px solid lightblue;
 
 }
