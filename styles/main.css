@@ -38,7 +38,7 @@
 .icon-box--icon1 {
   height: 30px;
   width: 38px;
-  margin: 5px 5px 25px 10px;
+  margin: 5px 5px 0 4px;
   background-image: url('../images/icons/button_1.png');
   background-size: contain;
   float: left;
@@ -88,21 +88,33 @@
   border-right: 3px solid lightblue;
   float: left;
 }
-.icon-box--color-box {
+.icon-box--color-box1 {
   height: 25px;
   width: 25px;
   margin: 12px 10px 5px 15px;
   background-color: #81bce6;
 }
+.icon-box--color-box2 {
+  height: 25px;
+  width: 25px;
+  margin: 12px 10px 5px 15px;
+  background-color: #D482AA;
+}
+.icon-box--color-box3 {
+  height: 25px;
+  width: 25px;
+  margin: 12px 10px 5px 15px;
+  background-color: #D8AD7A;
+}
 .icon-box--icon5 {
-
+  height: 47px;
   width: 47px;
   background-image: url('../images/icons/button_3.png');
   background-size: contain;
   float: left;
 }
 .shirt-name {
-
+  margin-right: 40px;
   float: left;
   padding-top: 5px;
   font-family: Verdana;
@@ -110,7 +122,7 @@
 
 }
 .price {
-  width: 105px;
+  width: 175px;
   padding: 5px 0 0 15px;
   margin-left: 70px;
   text-align: right;
