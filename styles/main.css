@@ -8,7 +8,7 @@
 .outer-box {
 
 }
-.outer-box--tshirt-box {
+.outer-box--tshirt-box{
   width: 450px;
   border: 3px solid lightblue;
 
@@ -17,6 +17,86 @@
   padding: 40px;
 }
 .outer-box--icon-box {
+  width: 450px;
+  height: 70px;
+  border-top: 3px solid lightblue;
+}
+.icon-box--icon1 {
+  height: 70px;
+  width: 87.6px;
+  background-image: url('../images/icons/button_1.png');
+  background-size: contain;
+  float: left;
+}
+.icon-box--icon2{
+  height: 70px;
+  width: 87px;
+  background-image: url('../images/icons/button_2.png');
+  background-size: contain;
+  border-left: 3px solid lightblue;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--icon3 {
+  height: 50px;
+  width: 87px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana;
+  color: #81BCE6;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--icon4 {
+  height: 70px;
+  width: 87px;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--color-box {
+  height: 30px;
+  width: 30px;
+  margin: 20px 15px 15px 30px;
+  background-color: #81bce6;
+}
+.icon-box--icon5 {
+  height: 70px;
+  width: 87px;
+  background-image: url('../images/icons/button_3.png');
+  background-size: contain;
+  float: left;
+}
+.shirt-name {
+  width: 130px;
+  float: left;
+  padding: 15px 0;
+  font-family: Verdana;
+  color: #81BCE6;
+
+}
+.price {
+  width: 310px;
+  float: left;
+  padding: 15px 0 0 15px;
+  text-align: right;
+  font-family: Verdana;
+  color: #81BCE6;
+  font-weight: bold;
+}
+.outer-box2 {
+
+}
+.outer-box--tshirt-box1{
+  width: 450px;
+  border: 3px solid lightblue;
+
+}
+.outer-box--image1 {
+  padding: 40px;
+}
+.outer-box--icon-box1 {
   width: 450px;
   height: 70px;
   border-top: 3px solid lightblue;
@@ -84,8 +164,9 @@
   font-family: Verdana;
   color: #81BCE6;
   font-weight: bold;
+}
 
-
+.outer-box3 {
 
 }
 
