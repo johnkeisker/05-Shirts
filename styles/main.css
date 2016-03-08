@@ -69,13 +69,24 @@
   float: left;
 }
 .shirt-name {
-  width: 120px;
+  width: 130px;
   float: left;
+  padding: 15px 0;
+  font-family: Verdana;
+  color: #81BCE6;
+
 }
 .price {
-  width: 320px;
+  width: 310px;
   float: left;
+  padding: 15px 0 0 15px;
   text-align: right;
+  font-family: Verdana;
+  color: #81BCE6;
+  font-weight: bold;
+
+
+
 }
 
 /* State*/
