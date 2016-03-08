@@ -28,7 +28,7 @@
   background-size: contain;
   float: left;
 }
-.icon-box--icon2{
+.icon-box--icon2 {
   height: 70px;
   width: 87px;
   background-image: url('../images/icons/button_2.png');
@@ -48,6 +48,24 @@
   color: #81BCE6;
   border-right: 3px solid lightblue;
   float: left;
+}
+.icon-box--icon:hover .icon-box--hidden-box {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(10px);
+  transition: transform 2s, visibility 3s, opacity 3s;
+}
+.icon-box--hidden-box {
+  width: 18px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: #fff;
+  position: absolute;
+  left: 5px;
+  /*top: -110px;*/
+  bottom: 100%;
+  visibility: hidden;
+  opacity: 0;
 }
 .icon-box--icon4 {
   height: 70px;
@@ -135,11 +153,11 @@
   border-right: 3px solid lightblue;
   float: left;
 }
-.icon-box--color-box {
+.icon-box--color-box2 {
   height: 30px;
   width: 30px;
   margin: 20px 15px 15px 30px;
-  background-color: #81bce6;
+  background-color: #D482AA;
 }
 .icon-box--icon5 {
   height: 70px;
@@ -168,6 +186,83 @@
 
 .outer-box3 {
 
+}
+.outer-box--tshirt-box{
+  width: 450px;
+  border: 3px solid lightblue;
+
+}
+.outer-box--image {
+  padding: 40px;
+}
+.outer-box--icon-box {
+  width: 450px;
+  height: 70px;
+  border-top: 3px solid lightblue;
+}
+.icon-box--icon1 {
+  height: 70px;
+  width: 87.6px;
+  background-image: url('../images/icons/button_1.png');
+  background-size: contain;
+  float: left;
+}
+.icon-box--icon2{
+  height: 70px;
+  width: 87px;
+  background-image: url('../images/icons/button_2.png');
+  background-size: contain;
+  border-left: 3px solid lightblue;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--icon3 {
+  height: 50px;
+  width: 87px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana;
+  color: #81BCE6;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--icon4 {
+  height: 70px;
+  width: 87px;
+  border-right: 3px solid lightblue;
+  float: left;
+}
+.icon-box--color-box3 {
+  height: 30px;
+  width: 30px;
+  margin: 20px 15px 15px 30px;
+  background-color: #D8AD7A;
+}
+.icon-box--icon5 {
+  height: 70px;
+  width: 87px;
+  background-image: url('../images/icons/button_3.png');
+  background-size: contain;
+  float: left;
+}
+.shirt-name {
+  width: 130px;
+  float: left;
+  padding: 15px 0;
+  font-family: Verdana;
+  color: #81BCE6;
+
+}
+.price {
+  width: 310px;
+  float: left;
+  padding: 15px 0 0 15px;
+  text-align: right;
+  font-family: Verdana;
+  color: #81BCE6;
+  font-weight: bold;
 }
 
 /* State*/
