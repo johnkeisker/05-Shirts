@@ -6,7 +6,8 @@
 
 /* Modules*/
 .outer-box {
-
+float: left;
+margin-right: 10px;
 }
 .outer-box--tshirt-box{
   /*float: right;
@@ -106,7 +107,8 @@
   font-weight: bold;
 }
 .outer-box2 {
-  
+float: right;
+margin-right: 300px;
 }
 .outer-box--tshirt-box{
   width: 450px;
@@ -186,6 +188,7 @@
 }
 
 .outer-box3 {
+float: right;
 
 }
 .outer-box--tshirt-box{
