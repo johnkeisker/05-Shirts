@@ -33,28 +33,30 @@
 .outer-box--icon-box {
   width: 250px;
   height: 20px;
+  margin: 10px 0;
   border-top: 3px solid lightblue;
 }
 .icon-box--icon1 {
   height: 30px;
-  width: 38px;
-  margin: 5px 5px 0 4px;
-  background-image: url('../images/icons/button_1.png');
-  background-size: contain;
+  width: 40px;
+
+  /*background-image: url('../images/icons/button_1.png');*/
+  /*background-size: contain;
   float: left;
 }
 .icon-box--icon2 {
-  height: 47px;
-  width: 47px;
-  background-image: url('../images/icons/button_2.png');
-  background-size: contain;
+  height: 35px;
+  width: 40px;
+
+  background-image: url('../images/icons/button_2.png');*/
+  /*background-size: contain;
   border-left: 3px solid lightblue;
   border-right: 3px solid lightblue;
   float: left;
 }
 .icon-box--icon3 {
-  height: 35px;
-  width: 47px;
+  height: 25px;
+  width: 40px;
   text-align: center;
   padding-top: 15px;
   font-weight: bold;
@@ -63,7 +65,7 @@
   color: #81BCE6;
   border-right: 3px solid lightblue;
   float: left;
-}
+}*/
 /*.icon-box--icon3:hover .icon-box--hidden-box {
   visibility: visible;
   opacity: 1;
@@ -83,34 +85,34 @@
   opacity: 0;
 }*/
 .icon-box--icon4 {
-  height: 47px;
-  width: 47px;
+  height: 37px;
+  width: 70px;
   border-right: 3px solid lightblue;
   float: left;
 }
 .icon-box--color-box1 {
-  height: 25px;
-  width: 25px;
-  margin: 12px 10px 5px 15px;
+  height: 20px;
+  width: 20px;
+
   background-color: #81bce6;
 }
 .icon-box--color-box2 {
   height: 25px;
   width: 25px;
-  margin: 12px 10px 5px 15px;
+
   background-color: #D482AA;
 }
 .icon-box--color-box3 {
   height: 25px;
   width: 25px;
-  margin: 12px 10px 5px 15px;
+
   background-color: #D8AD7A;
 }
 .icon-box--icon5 {
-  height: 47px;
-  width: 47px;
+  height: 10px;
+  width: 40px;
   background-image: url('../images/icons/button_3.png');
-  background-size: contain;
+  background-size: 40px;
   float: left;
 }
 .shirt-name {
