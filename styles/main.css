@@ -28,6 +28,16 @@
   padding: 0;
   border: 3px solid lightblue;
 }
+.rotate-button {
+  height: 20px;
+  width: 20px;
+  float: right;
+  border-left: 3px solid lightblue;
+  border-bottom: 3px solid lightblue;
+}
+.rotate-button--image {
+  width: 20px;
+}
 
 .outer-box--image {
   width: 100px;
