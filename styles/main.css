@@ -38,26 +38,27 @@
   height: 20px;
   border-top: 3px solid lightblue;
 }
+
 .icon-box--icon1 {
-  height: 30px;
-  width: 38px;
-  margin: 7px 0;
+  height: 40px;
+  width: 48px;
+  margin: 3px 0 8px 0;
   background-image: url('../images/icons/button_1.png');
   background-size: contain;
   float: left;
 }
 .icon-box--icon2 {
   height: 47px;
-  width: 47px;
+  width: 48px;
   background-image: url('../images/icons/button_2.png');
-  background-size: contain;
+  background-size: cover;
   border-left: 3px solid lightblue;
   border-right: 3px solid lightblue;
   float: left;
 }
 .icon-box--icon3 {
   height: 35px;
-  width: 47px;
+  width: 48px;
   text-align: center;
   padding-top: 15px;
   font-weight: bold;
@@ -67,42 +68,45 @@
   border-right: 3px solid lightblue;
   float: left;
 }
+.icon-box--icon3:hover {
+  /*background-color: #81BCE6;*/
+
+}
 .icon-box--icon4 {
   height: 47px;
-  width: 47px;
+  width: 48px;
   border-right: 3px solid lightblue;
   float: left;
 }
 .icon-box--color-box1 {
-  height: 25px;
-  width: 25px;
-  margin: 12px 0px 5px 10px;
+  height: 15px;
+  width: 15px;
+  margin: 17px 10px 8px 15px;
 
   background-color: #81bce6;
 }
 .icon-box--color-box2 {
-  height: 25px;
-  width: 25px;
-  margin: 12px 0px 5px 10px;
+  height: 15px;
+  width: 15px;
+  margin: 17px 10px 8px 15px;
   background-color: #D482AA;
 }
 .icon-box--color-box3 {
-  height: 25px;
-  width: 25px;
-  margin: 12px 0px 5px 10px;
+  height: 15px;
+  width: 15px;
+  margin: 17px 10px 8px 15px;
   background-color: #D8AD7A;
 }
 .icon-box--icon5 {
-  height: 45px;
-  width: 45px;
-  margin-top: 2px;
-  margin-right: 7px;
+  height: 46px;
+  width: 44px;
+  padding-left: 2px;
   background-image: url('../images/icons/button_3.png');
-  background-size: contain;;
+  background-size: cover;
   float: right;
 }
 .shirt-name {
-  width: 150px;
+  width: 220px;
   padding: 5px 0;
   font-family: Verdana;
   color: #81BCE6;
@@ -110,7 +114,6 @@
 
 }
 .price {
-  width: 50px;
   padding: 5px 0;
   text-align: right;
   font-family: Verdana;
