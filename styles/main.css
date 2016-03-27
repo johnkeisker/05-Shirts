@@ -27,6 +27,7 @@
   width: 250px;
   padding: 0;
   border: 3px solid lightblue;
+  background-image: url('..images/shirts/1_front.png');
 }
 .rotate-button {
   height: 20px;
@@ -34,18 +35,22 @@
   float: right;
   border-left: 3px solid lightblue;
   border-bottom: 3px solid lightblue;
-}
-.rotate-button--image {
   background-image: url('../images/icons/rotate.png');
-  width: 20px;
-}
-.rotate-button--image:hover {
-  background-image: url('../images/icons/rotate_hover.png');
+  background-size: contain;
 }
 
+.rotate-button:hover {
+  background-image: url('../images/icons/rotate_hover.png');
+  width: 20px;
+}
 .outer-box--image {
   width: 100px;
   padding: 40px 40px 40px 75px;
+
+}
+.outer-box--tshirt-box:hover {
+  background-image: url('..images/shirts/1_back.png');
+
 }
 .outer-box--icon-box {
   width: 250px;
