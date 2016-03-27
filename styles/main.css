@@ -36,7 +36,11 @@
   border-bottom: 3px solid lightblue;
 }
 .rotate-button--image {
+  background-image: url('../images/icons/rotate.png');
   width: 20px;
+}
+.rotate-button--image:hover {
+  background-image: url('../images/icons/rotate_hover.png');
 }
 
 .outer-box--image {
@@ -57,6 +61,11 @@
   background-size: contain;
   float: left;
 }
+
+.icon-box--icon1:hover {
+  background-image: url('../images/icons/button_1_hover.png');
+}
+
 .icon-box--icon2 {
   height: 47px;
   width: 48px;
@@ -65,6 +74,10 @@
   border-left: 3px solid lightblue;
   border-right: 3px solid lightblue;
   float: left;
+}
+.icon-box--icon2:hover {
+  background-image: url('../images/icons/button_2_hover.png');
+
 }
 .icon-box--icon3 {
   height: 35px;
@@ -79,7 +92,8 @@
   float: left;
 }
 .icon-box--icon3:hover {
-  /*background-color: #81BCE6;*/
+  background-color: #81BCE6;
+  color: white;
 
 }
 .icon-box--icon4 {
@@ -92,8 +106,11 @@
   height: 15px;
   width: 15px;
   margin: 17px 10px 8px 15px;
-
   background-color: #81bce6;
+}
+.icon-box--icon4:hover {
+  background-color: #81bce6;
+
 }
 .icon-box--color-box2 {
   height: 15px;
@@ -114,6 +131,9 @@
   background-image: url('../images/icons/button_3.png');
   background-size: cover;
   float: right;
+}
+.icon-box--icon5:hover {
+  background-image: url('../images/icons/button_3_hover.png');
 }
 .shirt-name {
   width: 220px;
