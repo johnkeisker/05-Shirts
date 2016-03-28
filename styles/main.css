@@ -107,16 +107,22 @@
   border-right: 3px solid lightblue;
   float: left;
 }
+
+.icon-box--icon4:hover {
+  background-color: #81bce6;
+}
+
 .icon-box--color-box1 {
   height: 15px;
   width: 15px;
   margin: 17px 10px 8px 15px;
   background-color: #81bce6;
 }
-.icon-box--icon4:hover {
-  background-color: #81bce6;
-
+  .icon-box--icon4:hover .icon-box--color-box1 {
+  border: 2px solid white;
 }
+
+
 .icon-box--color-box2 {
   height: 15px;
   width: 15px;
