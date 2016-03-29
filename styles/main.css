@@ -23,7 +23,7 @@
   padding-top: 20px;
 }
 .outer-box--tshirt-box{
-  height: 230px;
+  height: 223px;
   width: 250px;
   padding: 0;
   border: 3px solid lightblue;
@@ -53,15 +53,15 @@
 
 }
 .outer-box--icon-box {
-  width: 250px;
-  height: 20px;
+  /*width: 250px;*/
+  /*height: 20px;*/
   border-top: 3px solid lightblue;
 }
 
 .icon-box--icon1 {
   height: 40px;
   width: 48px;
-  margin: 3px 0 8px 0;
+  margin: 0px 0 0px 0;
   background-image: url('../images/icons/button_1.png');
   background-size: contain;
   float: left;
@@ -69,10 +69,12 @@
 
 .icon-box--icon1:hover {
   background-image: url('../images/icons/button_1_hover.png');
+  background-size: contain;
 }
 
+
 .icon-box--icon2 {
-  height: 47px;
+  height: 40px;
   width: 48px;
   background-image: url('../images/icons/button_2.png');
   background-size: cover;
@@ -85,10 +87,10 @@
 
 }
 .icon-box--icon3 {
-  height: 35px;
+  height: 30px;
   width: 48px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 12px;
   font-weight: bold;
   font-size: 15px;
   font-family: Verdana;
@@ -102,7 +104,7 @@
 
 }
 .icon-box--icon4 {
-  height: 47px;
+  height: 40px;
   width: 48px;
   border-right: 3px solid lightblue;
   float: left;
@@ -115,28 +117,34 @@
 .icon-box--color-box1 {
   height: 15px;
   width: 15px;
-  margin: 17px 10px 8px 15px;
+  margin: 13px 10px 8px 15px;
   background-color: #81bce6;
 }
   .icon-box--icon4:hover .icon-box--color-box1 {
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 
 .icon-box--color-box2 {
   height: 15px;
   width: 15px;
-  margin: 17px 10px 8px 15px;
+  margin: 13px 10px 8px 15px;
   background-color: #D482AA;
+}
+.icon-box--icon4:hover .icon-box--color-box2 {
+border: 1px solid white;
 }
 .icon-box--color-box3 {
   height: 15px;
   width: 15px;
-  margin: 17px 10px 8px 15px;
+  margin: 13px 10px 8px 15px;
   background-color: #D8AD7A;
 }
+.icon-box--icon4:hover .icon-box--color-box3 {
+border: 1px solid white;
+}
 .icon-box--icon5 {
-  height: 46px;
+  height: 40px;
   width: 44px;
   padding-left: 2px;
   background-image: url('../images/icons/button_3.png');
@@ -161,4 +169,7 @@
   color: #81BCE6;
   font-weight: bold;
   float: right;
+}
+.footer-box {
+
 }
